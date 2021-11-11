@@ -124,31 +124,31 @@
         $page=$_GET['page'];
         if($page=="register")
         {
-            include_once("Register.php");
+            include_once("register.php");
         }
         elseif($page=="login")
         {
-            include_once("Login.php");
-        }
-        elseif($page=="Category_Management")
-        {
-            include_once("Category_Management.php");
-        }
-        elseif($page=="product_management")
-        {
-            include_once("Product_Management.php");
-        }
-        elseif($page=="Add_Category")
-        {
-            include_once("Add_Category.php");
-        }
-        elseif($page=="update_category")
-        {
-            include_once("Update_Category.php");
+            include_once("login.php");
         }
         elseif($page=="category_management")
         {
-            include_once("Category_Management.php");
+            include_once("category_management.php");
+        }
+        elseif($page=="product_management")
+        {
+            include_once("product_management.php");
+        }
+        elseif($page=="add_category")
+        {
+            include_once("add_category.php");
+        }
+        elseif($page=="update_category")
+        {
+            include_once("update_category.php");
+        }
+        elseif($page=="category_management")
+        {
+            include_once("category_management.php");
         }
         elseif($page=="payment")
         {
@@ -160,19 +160,19 @@
         }
         elseif($page=="update_product")
         {
-            include_once("Update_Product.php");
+            include_once("update_product.php");
         }
         elseif($page=="add_product")
         {
-            include_once("Add_Product.php");
+            include_once("add_product.php");
         }
         elseif($page=="update_customes")
         {
-            include_once("Update_customer.php");
+            include_once("update_customer.php");
         }
     } 
     else{
-        include("Content.php");
+        include("content.php");
     }
 	?>
     </div> 
